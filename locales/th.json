@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "วัชระ สังวรรณ — นักพัฒนาเว็บไซต์",
+    "description": "ผลงานของวัชระ สังวรรณ นักพัฒนาเว็บไซต์ในจังหวัดเชียงใหม่"
+  },
+  "nav": {
+    "work": "ผลงาน",
+    "about": "เกี่ยวกับ",
+    "contact": "ติดต่อ",
+    "availability": "นักพัฒนาเว็บไซต์ · เชียงใหม่",
+    "switchLanguage": "เปลี่ยนภาษา"
+  },
+  "hero": {
+    "eyebrow": "นักพัฒนาเว็บไซต์ · เชียงใหม่",
+    "greeting": "ผมสร้างเว็บไซต์",
+    "secondLine": "ที่ตอบโจทย์ผู้ใช้งาน",
+    "description": "ผม <strong>วัชระ สังวรรณ</strong> นักพัฒนาเว็บไซต์ที่สร้างเว็บไซต์ธุรกิจด้วย Next.js, WordPress และเครื่องมือ Frontend สมัยใหม่",
+    "cta": "เลือกชมผลงาน",
+    "note": "Next.js · WordPress · Frontend"
+  },
+  "work": {
+    "eyebrow": "ผลงานเว็บไซต์ที่ใช้งานจริง",
+    "title": "ผลงานที่คัดสรร",
+    "aside": "ส่งมอบเว็บไซต์ด้วยตัวเอง 4 แห่ง และร่วมพัฒนา Frontend อีก 4 แห่ง"
+  },
+  "projects": {
+    "p1": {
+      "name": "risegolfacademy.com",
+      "description": "พัฒนาและส่งมอบเว็บไซต์ตั้งแต่ต้นจนจบด้วยตัวเอง",
+      "type": "Next.js"
+    },
+    "p2": {
+      "name": "cnxfestival.com",
+      "description": "พัฒนาและส่งมอบเว็บไซต์ตั้งแต่ต้นจนจบด้วยตัวเอง",
+      "type": "WordPress · Elementor"
+    },
+    "p3": {
+      "name": "steelbuilder.sg",
+      "description": "พัฒนาและส่งมอบเว็บไซต์ตั้งแต่ต้นจนจบด้วยตัวเอง",
+      "type": "WordPress · Elementor"
+    },
+    "p4": {
+      "name": "jkeart.com",
+      "description": "พัฒนาและส่งมอบเว็บไซต์ตั้งแต่ต้นจนจบด้วยตัวเอง",
+      "type": "WordPress · Elementor"
+    },
+    "p5": {
+      "name": "risegroupasia.co.th",
+      "description": "ร่วมพัฒนา Frontend",
+      "type": "HTML · CSS · JavaScript"
+    },
+    "p6": {
+      "name": "maleenoodle.com",
+      "description": "ร่วมพัฒนา Frontend",
+      "type": "WordPress · Elementor"
+    },
+    "p7": {
+      "name": "lptrading.co.th",
+      "description": "ร่วมพัฒนา Frontend",
+      "type": "WordPress · Elementor"
+    },
+    "p8": {
+      "name": "therichworldth.com",
+      "description": "พัฒนา Frontend",
+      "type": "Laravel · Frontend"
+    }
+  },
+  "about": {
+    "eyebrow": "เกี่ยวกับและประสบการณ์",
+    "title": "ประสบการณ์ 2 ปีในการสร้างและดูแลเว็บไซต์ธุรกิจ",
+    "description": "ผมพัฒนาและดูแลเว็บไซต์ที่ Rise Group Asia ตั้งแต่เก็บความต้องการ ทำหน้าเว็บให้รองรับทุกหน้าจอ ทดสอบ แก้บั๊ก ไปจนถึงนำเว็บไซต์ขึ้นใช้งานจริง ส่งมอบเว็บไซต์ด้วยตัวเอง 4 แห่ง ร่วมพัฒนา Frontend อีก 4 แห่ง และดูแลให้คำแนะนำนักศึกษาฝึกงาน 10 คน โดยดูแลพร้อมกันสูงสุด 6 คน",
+    "basedLabel": "ที่อยู่",
+    "based": "เชียงใหม่ ประเทศไทย",
+    "focusLabel": "ความถนัด",
+    "focus": "พัฒนาเว็บไซต์ · Frontend · WordPress",
+    "languagesLabel": "ภาษา",
+    "languages": "ไทย (เจ้าของภาษา) · อังกฤษ (ใช้ทำงานได้)"
+  },
+  "contact": {
+    "eyebrow": "ขอบคุณที่สนใจผลงาน",
+    "title": "หวังว่าจะมีโอกาสได้<br />ร่วมงานกันครับ",
+    "cta": "อีเมลหาวัชระ",
+    "note": "เชียงใหม่ ประเทศไทย · LINE: gearwcr · 084-983-6549"
+  },
+  "footer": {
+    "note": "นักพัฒนาเว็บไซต์ · เชียงใหม่ ประเทศไทย",
+    "backToTop": "กลับขึ้นด้านบน ↑"
+  },
+  "experience": {
+    "eyebrow": "ประสบการณ์และทักษะ",
+    "title": "ประสบการณ์และเครื่องมือ",
+    "current": "นักพัฒนาเว็บไซต์ · Rise Group Asia",
+    "currentDates": "ธันวาคม 2024 — ปัจจุบัน · เชียงใหม่",
+    "robot": "ช่างเทคนิคหุ่นยนต์ · Ozone Robotics",
+    "robotDates": "มีนาคม — ตุลาคม 2023 · ติดตั้ง ฝึกอบรม บำรุงรักษา และแก้ไขปัญหา",
+    "top": "IT Support · TOP Computer",
+    "topDates": "กุมภาพันธ์ — กันยายน 2021 · ติดตั้งคอมพิวเตอร์ เครื่องพิมพ์ และแก้ไขปัญหา",
+    "sb": "IT Support · Sbsoft Chiang Mai",
+    "sbDates": "กันยายน 2020 — มกราคม 2021 · ติดตั้ง POS และช่วยเหลือแอปพลิเคชันระยะไกล",
+    "intern": "นักศึกษาฝึกงาน Technical Support · TechSpace",
+    "internDates": "มกราคม — เมษายน 2020 · ช่วยแก้ปัญหาเครือข่าย คอมพิวเตอร์ และเครื่องพิมพ์ระยะไกล",
+    "education": "การศึกษา",
+    "degree": "ปริญญาตรี สาขาเทคโนโลยีสารสนเทศ · มหาวิทยาลัยพะเยา · 2020",
+    "skills": "ทักษะทางเทคนิค",
+    "frontend": "Frontend",
+    "frontendList": "HTML5 · CSS3 · JavaScript · React · Next.js · Tailwind CSS · Responsive Design",
+    "cms": "CMS",
+    "cmsList": "WordPress · Elementor Pro",
+    "tools": "เครื่องมือ",
+    "toolsList": "Git · GitHub · JSON · Testing · Debugging · เก็บความต้องการ",
+    "deploy": "การนำเว็บไซต์ขึ้นใช้งาน",
+    "deployList": "cPanel · Hostinger · HostAtom"
+  }
+}

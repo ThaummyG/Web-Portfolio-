@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Watchara Sangwanna, a web developer in Chiang Mai, Thailand." />
+  <meta name="theme-color" content="#f7f7f4" />
+  <title>Watchara Sangwanna — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/png" href="./assets/w.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            canvas: "#f7f7f4",
+            ink: "#20231f",
+            muted: "#747970",
+            line: "#e4e6df",
+            accent: "#496b56",
+          },
+          fontFamily: {
+            sans: ["DM Sans", "Manrope", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/23.11.5/i18next.min.js" defer></script>
+  <script src="./main.js" defer></script>
+</head>
+
+<body class="bg-canvas text-ink antialiased">
+  <div
+    class="page-shell mx-auto w-[min(calc(100%-64px),1280px)] max-md:w-[min(calc(100%-40px),600px)] max-sm:w-[min(calc(100%-32px),440px)]">
+    <header
+      class="site-header sticky top-0 z-20 grid min-h-[82px] grid-cols-[1fr_1fr_1fr] items-center border-b border-line bg-[rgba(247,247,244,0.94)] text-xs backdrop-blur-[12px] max-md:min-h-[72px] max-md:grid-cols-[auto_1fr_auto] max-sm:min-h-[68px]">
+      <a class="wordmark" href="#home" aria-label="Watchara Sangwanna — home">WS<span>.</span></a>
+      <nav
+        class="main-nav flex items-center justify-center gap-[clamp(20px,3vw,42px)] max-md:gap-[18px] max-sm:gap-[clamp(11px,4vw,18px)]"
+        aria-label="Main navigation">
+        <a href="#work" data-i18n="nav.work">Work</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header-actions flex items-center justify-end gap-[25px] max-md:gap-0">
+        <span class="availability">
+          <span class="availability-dot" aria-hidden="true"></span>
+          <span data-i18n="nav.availability">Open to web development opportunities</span>
+        </span>
+        <button class="language-toggle" type="button" aria-label="Switch language"
+          data-i18n-aria-label="nav.switchLanguage" aria-live="polite">
+          <span class="language-option" data-lang="en">EN</span>
+          <span class="language-divider" aria-hidden="true">/</span>
+          <span class="language-option" data-lang="th">TH</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <section
+        class="hero section-grid relative grid min-h-[clamp(560px,calc(100svh-82px),760px)] grid-cols-[1.2fr_.8fr] items-center border-b border-line px-[9%] py-[96px] pb-[110px] max-md:min-h-0 max-md:grid-cols-1 max-md:px-[2%] max-md:py-[90px] max-md:pb-[100px] max-sm:px-0 max-sm:py-[80px] max-sm:pb-[88px]"
+        aria-labelledby="hero-title">
+        <div class="hero-copy relative z-[1] max-w-[670px] reveal">
+          <p class="eyebrow"><span data-i18n="hero.eyebrow">PORTFOLIO · 2026</span></p>
+          <h1 id="hero-title">
+            <span data-i18n="hero.greeting">I build websites</span>
+            <span class="hero-second-line" data-i18n="hero.secondLine">that work for people.</span>
+          </h1>
+          <p class="hero-description" data-i18n-html="hero.description">
+            I’m <strong>Watchara Sangwanna</strong>, a web developer building business websites with Next.js and
+            WordPress in Chiang Mai, Thailand.
+          </p>
+          <div class="hero-links">
+            <a class="text-link" href="#work">
+              <span data-i18n="hero.cta">Explore selected work</span>
+              <span aria-hidden="true">↘</span>
+            </a>
+            <span class="hero-note" data-i18n="hero.note">Next.js · WordPress · Frontend development</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="art-orbit orbit-one" aria-hidden="true"></div>
+          <div class="art-orbit orbit-two" aria-hidden="true"></div>
+          <img class="profile-photo h-full w-full object-contain rounded-[40px] shadow-lg"
+            src="./assets/Watchara%20Sangwanna1.png" alt="Portrait of Watchara Sangwanna" fetchpriority="high"
+            onerror="this.hidden = true" />
+          <span class="art-coordinate coordinate-top" aria-hidden="true">FRONTEND · CMS</span>
+          <span class="art-coordinate coordinate-bottom" aria-hidden="true">CHIANG MAI, THAILAND</span>
+        </div>
+        <div class="hero-index" aria-hidden="true">
+          <span>01</span><span class="index-line"></span><span>08</span>
+        </div>
+      </section>
+
+      <section id="work"
+        class="work-section content-section border-b border-line px-[9%] py-[124px] max-md:px-[2%] max-md:py-[90px] max-sm:px-0 max-sm:py-[76px]"
+        aria-labelledby="work-title">
+        <div
+          class="section-heading mb-12 flex items-end justify-between max-sm:mb-7 max-sm:flex-col max-sm:items-start max-sm:gap-3 reveal">
+          <div>
+            <p class="eyebrow" data-i18n="work.eyebrow">A FEW THINGS I’VE MADE</p>
+            <h2 id="work-title" data-i18n="work.title">Selected work</h2>
+          </div>
+          <p class="section-aside" data-i18n="work.aside">A small collection, made with care.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-row reveal"><span class="project-number">01</span><span
+              class="project-art project-link-card project-art-1"><a href="https://risegolfacademy.com" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit risegolfacademy.com"><span
+                  class="project-site-mark">risegolfacademy.com</span><span
+                  class="project-visit">↗</span></a></span><span class="project-info"><a class="project-name"
+                href="https://risegolfacademy.com" target="_blank" rel="noopener noreferrer"
+                data-i18n="projects.p1.name">risegolfacademy.com</a><span class="project-description"
+                data-i18n="projects.p1.description">Independent end-to-end delivery</span></span><span
+              class="project-type" data-i18n="projects.p1.type">Next.js</span></article>
+          <article class="project-row reveal"><span class="project-number">02</span><span
+              class="project-art project-link-card project-art-2"><a href="https://cnxfestival.com" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit cnxfestival.com"><span
+                  class="project-site-mark">cnxfestival.com</span><span class="project-visit">↗</span></a></span><span
+              class="project-info"><a class="project-name" href="https://cnxfestival.com" target="_blank"
+                rel="noopener noreferrer" data-i18n="projects.p2.name">cnxfestival.com</a><span
+                class="project-description" data-i18n="projects.p2.description">Independent end-to-end
+                delivery</span></span><span class="project-type" data-i18n="projects.p2.type">WordPress ·
+              Elementor</span></article>
+          <article class="project-row reveal"><span class="project-number">03</span><span
+              class="project-art project-link-card project-art-3"><a href="https://steelbuilder.sg" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit steelbuilder.sg"><span
+                  class="project-site-mark">steelbuilder.sg</span><span class="project-visit">↗</span></a></span><span
+              class="project-info"><a class="project-name" href="https://steelbuilder.sg" target="_blank"
+                rel="noopener noreferrer" data-i18n="projects.p3.name">steelbuilder.sg</a><span
+                class="project-description" data-i18n="projects.p3.description">Independent end-to-end
+                delivery</span></span><span class="project-type" data-i18n="projects.p3.type">WordPress ·
+              Elementor</span></article>
+          <article class="project-row reveal"><span class="project-number">04</span><span
+              class="project-art project-link-card project-art-1"><a href="https://jkeart.com" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit jkeart.com"><span
+                  class="project-site-mark">jkeart.com</span><span class="project-visit">↗</span></a></span><span
+              class="project-info"><a class="project-name" href="https://jkeart.com" target="_blank"
+                rel="noopener noreferrer" data-i18n="projects.p4.name">jkeart.com</a><span class="project-description"
+                data-i18n="projects.p4.description">Independent end-to-end delivery</span></span><span
+              class="project-type" data-i18n="projects.p4.type">WordPress · Elementor</span></article>
+          <article class="project-row reveal"><span class="project-number">05</span><span
+              class="project-art project-link-card project-art-2"><a href="https://risegroupasia.co.th" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit risegroupasia.co.th"><span
+                  class="project-site-mark">risegroupasia.co.th</span><span
+                  class="project-visit">↗</span></a></span><span class="project-info"><a class="project-name"
+                href="https://risegroupasia.co.th" target="_blank" rel="noopener noreferrer"
+                data-i18n="projects.p5.name">risegroupasia.co.th</a><span class="project-description"
+                data-i18n="projects.p5.description">Frontend contribution</span></span><span class="project-type"
+              data-i18n="projects.p5.type">HTML · CSS · JavaScript</span></article>
+          <article class="project-row reveal"><span class="project-number">06</span><span
+              class="project-art project-link-card project-art-3"><a href="https://maleenoodle.com" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit maleenoodle.com"><span
+                  class="project-site-mark">maleenoodle.com</span><span class="project-visit">↗</span></a></span><span
+              class="project-info"><a class="project-name" href="https://maleenoodle.com" target="_blank"
+                rel="noopener noreferrer" data-i18n="projects.p6.name">maleenoodle.com</a><span
+                class="project-description" data-i18n="projects.p6.description">Frontend contribution</span></span><span
+              class="project-type" data-i18n="projects.p6.type">WordPress · Elementor</span></article>
+          <article class="project-row reveal"><span class="project-number">07</span><span
+              class="project-art project-link-card project-art-1"><a href="https://lptrading.co.th" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit lptrading.co.th"><span
+                  class="project-site-mark">lptrading.co.th</span><span class="project-visit">↗</span></a></span><span
+              class="project-info"><a class="project-name" href="https://lptrading.co.th" target="_blank"
+                rel="noopener noreferrer" data-i18n="projects.p7.name">lptrading.co.th</a><span
+                class="project-description" data-i18n="projects.p7.description">Frontend contribution</span></span><span
+              class="project-type" data-i18n="projects.p7.type">WordPress · Elementor</span></article>
+          <article class="project-row reveal"><span class="project-number">08</span><span
+              class="project-art project-link-card project-art-2"><a href="https://therichworldth.com" target="_blank"
+                rel="noopener noreferrer" aria-label="Visit therichworldth.com"><span
+                  class="project-site-mark">therichworldth.com</span><span
+                  class="project-visit">↗</span></a></span><span class="project-info"><a class="project-name"
+                href="https://therichworldth.com" target="_blank" rel="noopener noreferrer"
+                data-i18n="projects.p8.name">therichworldth.com</a><span class="project-description"
+                data-i18n="projects.p8.description">Frontend implementation</span></span><span class="project-type"
+              data-i18n="projects.p8.type">Laravel · Frontend</span></article>
+        </div>
+      </section>
+
+      <section id="about"
+        class="about-section content-section grid grid-cols-[.75fr_1.25fr] gap-[10%] border-b border-line px-[9%] py-[124px] max-md:grid-cols-1 max-md:gap-8 max-md:px-[2%] max-md:py-[90px] max-sm:gap-6 max-sm:px-0 max-sm:py-[76px]"
+        aria-labelledby="about-title">
+        <div class="about-label reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">A LITTLE ABOUT ME</p>
+          <span class="about-symbol" aria-hidden="true">✳</span>
+        </div>
+        <div class="about-copy reveal">
+          <h2 id="about-title" data-i18n="about.title">
+            Good work starts with listening, then making the complex feel simple.
+          </h2>
+          <div class="about-bottom">
+            <p data-i18n="about.description">
+              At Rise Group Asia, I develop and maintain websites from requirements through responsive implementation,
+              testing, bug fixing, and deployment. I have delivered four websites independently, contributed frontend
+              work to four more, and mentored 10 interns, supporting up to six concurrently.
+            </p>
+            <div class="about-facts">
+              <div><span data-i18n="about.basedLabel">BASED IN</span><strong data-i18n="about.based">Chiang Mai,
+                  Thailand</strong></div>
+              <div><span data-i18n="about.focusLabel">FOCUS</span><strong data-i18n="about.focus">Web development ·
+                  Frontend · WordPress</strong></div>
+              <div><span data-i18n="about.languagesLabel">LANGUAGES</span><strong data-i18n="about.languages">Thai
+                  (native) · English (working knowledge)</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="experience-section content-section border-b border-line px-[9%] py-[124px] max-md:px-[2%] max-md:py-[90px] max-sm:px-0 max-sm:py-[76px]"
+        aria-labelledby="experience-title">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow" data-i18n="experience.eyebrow"></p>
+            <h2 id="experience-title" data-i18n="experience.title"></h2>
+          </div>
+        </div>
+        <div class="experience-grid grid grid-cols-[1.15fr_.85fr] gap-[10%] max-md:grid-cols-1 max-md:gap-[38px]">
+          <div class="career-list">
+            <article class="career-item">
+              <h3 data-i18n="experience.current">Web Developer · Rise Group Asia</h3>
+              <p data-i18n="experience.currentDates">December 2024 — Present · Chiang Mai</p>
+            </article>
+            <article class="career-item">
+              <h3 data-i18n="experience.robot">Robot Technician · Ozone Robotics</h3>
+              <p data-i18n="experience.robotDates">March — October 2023 · Installation, training, maintenance, and
+                troubleshooting</p>
+            </article>
+            <article class="career-item">
+              <h3 data-i18n="experience.top">IT Support · TOP Computer</h3>
+              <p data-i18n="experience.topDates">February — September 2021 · Computer and printer setup and
+                troubleshooting</p>
+            </article>
+            <article class="career-item">
+              <h3 data-i18n="experience.sb">IT Support · Sbsoft Chiang Mai</h3>
+              <p data-i18n="experience.sbDates">September 2020 — January 2021 · POS installation and remote application
+                support</p>
+            </article>
+            <article class="career-item">
+              <h3 data-i18n="experience.intern">Technical Support Intern · TechSpace</h3>
+              <p data-i18n="experience.internDates">January — April 2020 · Remote support for network, computer, and
+                printer issues</p>
+            </article>
+            <div class="education-item">
+              <p class="eyebrow" data-i18n="experience.education">EDUCATION</p><strong
+                data-i18n="experience.degree">B.S. Information Technology · University of Phayao · 2020</strong>
+            </div>
+          </div>
+          <div class="skills-list">
+            <p class="eyebrow" data-i18n="experience.skills">TECHNICAL SKILLS</p>
+            <div><strong data-i18n="experience.frontend">Frontend</strong><span
+                data-i18n="experience.frontendList">HTML5 · CSS3 · JavaScript · React · Next.js · Tailwind CSS ·
+                Responsive design</span></div>
+            <div><strong data-i18n="experience.cms">CMS</strong><span data-i18n="experience.cmsList">WordPress ·
+                Elementor Pro</span></div>
+            <div><strong data-i18n="experience.tools">Tools</strong><span data-i18n="experience.toolsList">Git · GitHub
+                · JSON · Testing · Debugging · Requirements gathering</span></div>
+            <div><strong data-i18n="experience.deploy">Deployment</strong><span data-i18n="experience.deployList">cPanel
+                · Hostinger · HostAtom</span></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">THANKS FOR YOUR INTEREST</p>
+          <h2 id="contact-title" data-i18n-html="contact.title">I hope we get the chance<br />to work together.</h2>
+          <nav class="social-links" aria-label="Social media">
+            <a href="https://www.facebook.com/Gearwcr" target="_blank" rel="noopener noreferrer">Facebook <span
+                aria-hidden="true">↗</span></a>
+            <a href="https://line.me/ti/p/r-YQimTyWy" target="_blank" rel="noopener noreferrer">LINE <span
+                aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com/gia_watchara/" target="_blank" rel="noopener noreferrer">Instagram <span
+                aria-hidden="true">↗</span></a>
+          </nav>
+          <p class="contact-note" data-i18n="contact.note">gear.wcrl@gmail.com · LINE: gearwcr · 084-983-6549</p>
+        </div>
+        <div class="contact-decoration" aria-hidden="true">W<span>S</span></div>
+      </section>
+    </main>
+
+    <footer
+      class="site-footer flex min-h-[78px] items-center justify-between gap-5 text-[10px] text-muted max-sm:min-h-[86px] max-sm:flex-wrap max-sm:gap-[6px_15px] max-sm:py-[19px]">
+      <span>© <span id="year">2026</span> Watchara Sangwanna</span>
+      <span data-i18n="footer.note">Made with care · [Your location]</span>
+      <a href="#home" data-i18n="footer.backToTop">Back to top ↑</a>
+    </footer>
+  </div>
+</body>
+
+</html>

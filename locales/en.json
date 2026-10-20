@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title": "Watchara Sangwanna — Web Developer",
+    "description": "Portfolio of Watchara Sangwanna, a web developer in Chiang Mai, Thailand."
+  },
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "availability": "Web Developer · Chiang Mai",
+    "switchLanguage": "Switch language"
+  },
+  "hero": {
+    "eyebrow": "WEB DEVELOPER · CHIANG MAI",
+    "greeting": "I build websites",
+    "secondLine": "that work for people.",
+    "description": "I’m <strong>Watchara Sangwanna</strong>, a web developer building business websites with Next.js, WordPress, and modern frontend tools.",
+    "cta": "Explore selected work",
+    "note": "Next.js · WordPress · Frontend development"
+  },
+  "work": {
+    "eyebrow": "SELECTED PRODUCTION WORK",
+    "title": "Selected work",
+    "aside": "Four independent deliveries and four frontend contributions."
+  },
+  "projects": {
+    "p1": {
+      "name": "risegolfacademy.com",
+      "description": "Independent end-to-end delivery",
+      "type": "Next.js"
+    },
+    "p2": {
+      "name": "cnxfestival.com",
+      "description": "Independent end-to-end delivery",
+      "type": "WordPress · Elementor"
+    },
+    "p3": {
+      "name": "steelbuilder.sg",
+      "description": "Independent end-to-end delivery",
+      "type": "WordPress · Elementor"
+    },
+    "p4": {
+      "name": "jkeart.com",
+      "description": "Independent end-to-end delivery",
+      "type": "WordPress · Elementor"
+    },
+    "p5": {
+      "name": "risegroupasia.co.th",
+      "description": "Frontend contribution",
+      "type": "HTML · CSS · JavaScript"
+    },
+    "p6": {
+      "name": "maleenoodle.com",
+      "description": "Frontend contribution",
+      "type": "WordPress · Elementor"
+    },
+    "p7": {
+      "name": "lptrading.co.th",
+      "description": "Frontend contribution",
+      "type": "WordPress · Elementor"
+    },
+    "p8": {
+      "name": "therichworldth.com",
+      "description": "Frontend implementation",
+      "type": "Laravel · Frontend"
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT & EXPERIENCE",
+    "title": "2 years of experience building and supporting business websites.",
+    "description": "At Rise Group Asia, I develop and maintain production websites from requirements through responsive implementation, testing, bug fixing, and deployment. I have delivered four websites independently, contributed frontend work to four more, and mentored 10 interns, supporting up to six at a time.",
+    "basedLabel": "BASED IN",
+    "based": "Chiang Mai, Thailand",
+    "focusLabel": "FOCUS",
+    "focus": "Web development · Frontend · WordPress",
+    "languagesLabel": "LANGUAGES",
+    "languages": "Thai (native) · English (working knowledge)"
+  },
+  "contact": {
+    "eyebrow": "THANKS FOR YOUR INTEREST",
+    "title": "I hope we get the chance<br />to work together.",
+    "cta": "Email Watchara",
+    "note": "Chiang Mai, Thailand · LINE: gearwcr · 084-983-6549"
+  },
+  "footer": {
+    "note": "Web Developer · Chiang Mai, Thailand",
+    "backToTop": "Back to top ↑"
+  },
+  "experience": {
+    "eyebrow": "CAREER & TOOLKIT",
+    "title": "Experience and skills",
+    "current": "Web Developer · Rise Group Asia",
+    "currentDates": "December 2024 — Present · Chiang Mai",
+    "robot": "Robot Technician · Ozone Robotics",
+    "robotDates": "March — October 2023 · Installation, training, maintenance, and troubleshooting",
+    "top": "IT Support · TOP Computer",
+    "topDates": "February — September 2021 · Computer and printer setup and troubleshooting",
+    "sb": "IT Support · Sbsoft Chiang Mai",
+    "sbDates": "September 2020 — January 2021 · POS installation and remote application support",
+    "intern": "Technical Support Intern · TechSpace",
+    "internDates": "January — April 2020 · Remote support for network, computer, and printer issues",
+    "education": "EDUCATION",
+    "degree": "B.S. Information Technology · University of Phayao · 2020",
+    "skills": "TECHNICAL SKILLS",
+    "frontend": "Frontend",
+    "frontendList": "HTML5 · CSS3 · JavaScript · React · Next.js · Tailwind CSS · Responsive design",
+    "cms": "CMS",
+    "cmsList": "WordPress · Elementor Pro",
+    "tools": "Tools",
+    "toolsList": "Git · GitHub · JSON · Testing · Debugging · Requirements gathering",
+    "deploy": "Deployment",
+    "deployList": "cPanel · Hostinger · HostAtom"
+  }
+}
